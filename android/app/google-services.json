@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1076502175666",
+    "project_id": "homs-food",
+    "storage_bucket": "homs-food.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076502175666:android:1aa0a9de1d72c0cf964eab",
+        "android_client_info": {
+          "package_name": "com.app.homsfood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgRs-exEK4Gww5uJIXyXiFJ9BKIFWfWmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

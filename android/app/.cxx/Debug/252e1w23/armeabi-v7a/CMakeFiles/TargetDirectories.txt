@@ -1,0 +1,2 @@
+C:/projects/homsfood-main/android/app/.cxx/Debug/252e1w23/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/projects/homsfood-main/android/app/.cxx/Debug/252e1w23/armeabi-v7a/CMakeFiles/rebuild_cache.dir
