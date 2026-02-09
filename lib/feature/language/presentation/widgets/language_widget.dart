@@ -12,7 +12,7 @@ class LanguageWidget extends StatelessWidget {
     final List<Map> languages = [
       {"name":"Arabic","code":"ar"},
       // {"name":"English","code":"en"},
-      {"name":"Italiano","code":"it"},
+     // {"name":"Italiano","code":"it"},
       {"name":"Deutsch","code":"de"},
       {"name":"Francais","code":"fr"},
     ];
