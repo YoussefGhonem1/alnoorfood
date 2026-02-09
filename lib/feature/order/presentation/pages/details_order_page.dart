@@ -41,7 +41,7 @@ class DetailsOrderPage extends StatelessWidget {
           actions: [
             InkWell(
               onTap: ()async{
-                Uri link = Uri.parse('https://homs-food.online/admin/order_invoice/${order.id}?type=${isUser?"user":"delivery"}');
+                Uri link = Uri.parse('https://alnoorfood.online/admin/order_invoice/${order.id}?type=${isUser?"user":"delivery"}');
                 await launchUrl(link);
                 // if (await canLaunchUrl(link)) {
                 // await launchUrl(link);

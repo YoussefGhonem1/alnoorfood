@@ -78,15 +78,22 @@ void main() async{
   await NotificationLocalClass.init();
   HttpOverrides.global = MyHttpOverrides();
   LanguageProvider language = LanguageProvider();
-  Platform.isAndroid
-      ? await Firebase.initializeApp(
+if (Firebase.apps.isEmpty) {
+  if (Platform.isAndroid) {
+    await Firebase.initializeApp(
       options: const FirebaseOptions(
-          apiKey: 'AIzaSyCgRs-exEK4Gww5uJIXyXiFJ9BKIFWfWmc',
-          appId: "1:1076502175666:android:1aa0a9de1d72c0cf964eab",
-          messagingSenderId:  "1076502175666",
-          projectId: "homs-food")
-  )
-      : await Firebase.initializeApp();  FirebaseMessaging.onBackgroundMessage(firebaseMessagingBackgroundHandler);
+        apiKey: 'AIzaSyBGzQ_TokHdlSd5HxOIvEvj-PDxzHTjEow', 
+        appId: '1:439583572160:android:b6586a23063b53e723ad25', 
+        messagingSenderId: '439583572160', 
+        projectId: 'alnoorfood-d9379',
+      ),
+    );
+  } else {
+    await Firebase.initializeApp(); 
+  }
+}
+
+FirebaseMessaging.onBackgroundMessage(firebaseMessagingBackgroundHandler);
 
   notificationsFirebase();
   language.fetchLocale();

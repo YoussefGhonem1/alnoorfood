@@ -98,6 +98,7 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
   flutter_launcher_icons: any
+  change_app_package_name: any
 
 flutter_launcher_icons:
   android: true
