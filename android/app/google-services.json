@@ -7,20 +7,12 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:439583572160:android:b6586a23063b53e723ad25",
+        "mobilesdk_app_id": "1:439583572160:android:fcb3a2fc694e439223ad25",
         "android_client_info": {
-          "package_name": "com.alnoorfood.mobile"
+          "package_name": "com.aliweb.zeroonez.alnoorfood"
         }
       },
       "oauth_client": [
-        {
-          "client_id": "439583572160-ue91oa9ds9b3v978e36nfbsbjijnug91.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.alnoorfood.mobile",
-            "certificate_hash": "1288071f541a5f3a077f1422fd87d1b9f7caf811"
-          }
-        },
         {
           "client_id": "439583572160-66sfpkugdejlm04afrges5vaq4mvno7m.apps.googleusercontent.com",
           "client_type": 3
