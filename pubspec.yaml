@@ -102,7 +102,7 @@ dev_dependencies:
 
 flutter_launcher_icons:
   android: true
-  ios: false
+  ios: true
   image_path: assets/logo2.png
 
 
