@@ -11,6 +11,11 @@
 .svn/
 .swiftpm/
 migrate_working_dir/
+android/key.properties
+**/*.jks
+**/*.keystore
+**/*.p12
+**/*.p8
 
 # IntelliJ related
 *.iml
